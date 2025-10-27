@@ -4,6 +4,9 @@ using PigelloMockAPI.Models;
 
 namespace PigelloMockAPI.Controllers;
 
+/// <summary>
+/// Endpoints för att hantera fastigheter
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class PropertiesController : ControllerBase
@@ -15,12 +18,21 @@ public class PropertiesController : ControllerBase
         _dataStore = dataStore;
     }
 
+    /// <summary>
+    /// Hämta alla fastigheter
+    /// </summary>
+    /// <returns>Lista med fastigheter</returns>
     [HttpGet]
     public ActionResult<IEnumerable<Property>> GetProperties()
     {
         return Ok(_dataStore.Properties);
     }
 
+    /// <summary>
+    /// Hämta en specifik fastighet
+    /// </summary>
+    /// <param name="id">ID för fastigheten</param>
+    /// <returns>Fastighet om den hittas</returns>
     [HttpGet("{id}")]
     public ActionResult<Property> GetProperty(Guid id)
     {
@@ -31,6 +43,11 @@ public class PropertiesController : ControllerBase
         return Ok(property);
     }
 
+    /// <summary>
+    /// Skapa en ny fastighet
+    /// </summary>
+    /// <param name="property">Fastighet att skapa</param>
+    /// <returns>Den nyskapade fastigheten</returns>
     [HttpPost]
     public ActionResult<Property> CreateProperty(Property property)
     {
@@ -39,6 +56,12 @@ public class PropertiesController : ControllerBase
         return CreatedAtAction(nameof(GetProperty), new { id = property.Id }, property);
     }
 
+    /// <summary>
+    /// Uppdatera en befintlig fastighet
+    /// </summary>
+    /// <param name="id">ID för fastigheten</param>
+    /// <param name="updatedProperty">Uppdaterad fastighetsinformation</param>
+    /// <returns>Den uppdaterade fastigheten</returns>
     [HttpPut("{id}")]
     public ActionResult<Property> UpdateProperty(Guid id, Property updatedProperty)
     {
@@ -56,6 +79,11 @@ public class PropertiesController : ControllerBase
         return Ok(existingProperty);
     }
 
+    /// <summary>
+    /// Ta bort en fastighet
+    /// </summary>
+    /// <param name="id">ID för fastigheten</param>
+    /// <returns>Inget innehåll</returns>
     [HttpDelete("{id}")]
     public ActionResult DeleteProperty(Guid id)
     {

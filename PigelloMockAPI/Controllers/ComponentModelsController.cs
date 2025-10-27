@@ -4,6 +4,9 @@ using PigelloMockAPI.Models;
 
 namespace PigelloMockAPI.Controllers;
 
+/// <summary>
+/// Endpoints för att hantera komponentmodeller (mallar för komponenter som kylskåp, spisar, tvättmaskiner etc.)
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class ComponentModelsController : ControllerBase
@@ -15,6 +18,11 @@ public class ComponentModelsController : ControllerBase
         _dataStore = dataStore;
     }
 
+    /// <summary>
+    /// Hämta alla komponentmodeller med valfri filtrering
+    /// </summary>
+    /// <param name="category">Filtrera på kategori (t.ex. Vitvaror, VVS, Ventilation)</param>
+    /// <returns>Lista med komponentmodeller</returns>
     [HttpGet]
     public ActionResult<IEnumerable<ComponentModel>> GetComponentModels([FromQuery] string? category = null)
     {
@@ -36,6 +44,12 @@ public class ComponentModelsController : ControllerBase
         return Ok(model);
     }
 
+    /// <summary>
+    /// Skapa en ny komponentmodell
+    /// </summary>
+    /// <param name="model">Komponentmodell att skapa</param>
+    /// <returns>Den nyskapade komponentmodellen</returns>
+    /// <response code="201">Komponentmodellen skapades</response>
     [HttpPost]
     public ActionResult<ComponentModel> CreateComponentModel(ComponentModel model)
     {

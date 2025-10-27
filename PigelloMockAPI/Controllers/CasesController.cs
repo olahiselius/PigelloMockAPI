@@ -50,6 +50,13 @@ public class CasesController : ControllerBase
         return Ok(cases.ToList());
     }
 
+    /// <summary>
+    /// Hämta ett specifikt ärende
+    /// </summary>
+    /// <param name="id">ID för ärendet</param>
+    /// <returns>Ärende om det hittas</returns>
+    /// <response code="200">Ärendet hittades</response>
+    /// <response code="404">Ärendet hittades inte</response>
     [HttpGet("{id}")]
     public ActionResult<Case> GetCase(Guid id)
     {
@@ -60,6 +67,12 @@ public class CasesController : ControllerBase
         return Ok(caseItem);
     }
 
+    /// <summary>
+    /// Skapa ett nytt ärende
+    /// </summary>
+    /// <param name="newCase">Ärende att skapa</param>
+    /// <returns>Det nyskapade ärendet</returns>
+    /// <response code="201">Ärendet skapades</response>
     [HttpPost]
     public ActionResult<Case> CreateCase(Case newCase)
     {
@@ -69,6 +82,14 @@ public class CasesController : ControllerBase
         return CreatedAtAction(nameof(GetCase), new { id = newCase.Id }, newCase);
     }
 
+    /// <summary>
+    /// Uppdatera ett befintligt ärende
+    /// </summary>
+    /// <param name="id">ID för ärendet som ska uppdateras</param>
+    /// <param name="updatedCase">Uppdaterad ärendeinformation</param>
+    /// <returns>Det uppdaterade ärendet</returns>
+    /// <response code="200">Ärendet uppdaterades</response>
+    /// <response code="404">Ärendet hittades inte</response>
     [HttpPut("{id}")]
     public ActionResult<Case> UpdateCase(Guid id, Case updatedCase)
     {
@@ -113,6 +134,13 @@ public class CasesController : ControllerBase
         return Ok(existingCase);
     }
 
+    /// <summary>
+    /// Ta bort ett ärende
+    /// </summary>
+    /// <param name="id">ID för ärendet som ska tas bort</param>
+    /// <returns>Inget innehåll</returns>
+    /// <response code="204">Ärendet togs bort</response>
+    /// <response code="404">Ärendet hittades inte</response>
     [HttpDelete("{id}")]
     public ActionResult DeleteCase(Guid id)
     {

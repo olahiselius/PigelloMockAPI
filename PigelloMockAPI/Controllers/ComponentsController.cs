@@ -4,6 +4,9 @@ using PigelloMockAPI.Models;
 
 namespace PigelloMockAPI.Controllers;
 
+/// <summary>
+/// Endpoints för att hantera komponenter (t.ex. vitvaror, VVS) i rum
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class ComponentsController : ControllerBase
@@ -15,6 +18,13 @@ public class ComponentsController : ControllerBase
         _dataStore = dataStore;
     }
 
+    /// <summary>
+    /// Hämta alla komponenter med valfri filtrering
+    /// </summary>
+    /// <param name="roomId">Filtrera på rum</param>
+    /// <param name="buildingId">Filtrera på byggnad</param>
+    /// <param name="status">Filtrera på status (0=Active, 1=Inactive, 2=Maintenance, 3=Defect, 4=Replaced)</param>
+    /// <returns>Lista med komponenter</returns>
     [HttpGet]
     public ActionResult<IEnumerable<Component>> GetComponents(
         [FromQuery] Guid? roomId = null,
@@ -48,6 +58,13 @@ public class ComponentsController : ControllerBase
         return Ok(component);
     }
 
+    /// <summary>
+    /// Skapa en ny komponent i ett rum
+    /// </summary>
+    /// <param name="component">Komponent att skapa (kräver roomId och componentModelId)</param>
+    /// <returns>Den nyskapade komponenten</returns>
+    /// <response code="201">Komponenten skapades</response>
+    /// <response code="400">Ogiltigt rum eller komponentmodell</response>
     [HttpPost]
     public ActionResult<Component> CreateComponent(Component component)
     {

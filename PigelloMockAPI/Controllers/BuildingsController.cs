@@ -4,6 +4,9 @@ using PigelloMockAPI.Models;
 
 namespace PigelloMockAPI.Controllers;
 
+/// <summary>
+/// Endpoints för att hantera byggnader
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class BuildingsController : ControllerBase
@@ -15,6 +18,11 @@ public class BuildingsController : ControllerBase
         _dataStore = dataStore;
     }
 
+    /// <summary>
+    /// Hämta alla byggnader med valfri filtrering
+    /// </summary>
+    /// <param name="propertyId">Filtrera på fastighet</param>
+    /// <returns>Lista med byggnader</returns>
     [HttpGet]
     public ActionResult<IEnumerable<Building>> GetBuildings([FromQuery] Guid? propertyId = null)
     {
@@ -26,6 +34,11 @@ public class BuildingsController : ControllerBase
         return Ok(buildings.ToList());
     }
 
+    /// <summary>
+    /// Hämta en specifik byggnad
+    /// </summary>
+    /// <param name="id">ID för byggnaden</param>
+    /// <returns>Byggnad om den hittas</returns>
     [HttpGet("{id}")]
     public ActionResult<Building> GetBuilding(Guid id)
     {
@@ -36,6 +49,11 @@ public class BuildingsController : ControllerBase
         return Ok(building);
     }
 
+    /// <summary>
+    /// Hämta alla rum i en byggnad
+    /// </summary>
+    /// <param name="id">ID för byggnaden</param>
+    /// <returns>Lista med rum i byggnaden</returns>
     [HttpGet("{id}/rooms")]
     public ActionResult<IEnumerable<Room>> GetBuildingRooms(Guid id)
     {
@@ -47,6 +65,11 @@ public class BuildingsController : ControllerBase
         return Ok(rooms.ToList());
     }
 
+    /// <summary>
+    /// Skapa en ny byggnad
+    /// </summary>
+    /// <param name="building">Byggnad att skapa</param>
+    /// <returns>Den nyskapade byggnaden</returns>
     [HttpPost]
     public ActionResult<Building> CreateBuilding(Building building)
     {
@@ -55,6 +78,12 @@ public class BuildingsController : ControllerBase
         return CreatedAtAction(nameof(GetBuilding), new { id = building.Id }, building);
     }
 
+    /// <summary>
+    /// Uppdatera en befintlig byggnad
+    /// </summary>
+    /// <param name="id">ID för byggnaden</param>
+    /// <param name="updatedBuilding">Uppdaterad byggnadsinformation</param>
+    /// <returns>Den uppdaterade byggnaden</returns>
     [HttpPut("{id}")]
     public ActionResult<Building> UpdateBuilding(Guid id, Building updatedBuilding)
     {
@@ -73,6 +102,11 @@ public class BuildingsController : ControllerBase
         return Ok(existingBuilding);
     }
 
+    /// <summary>
+    /// Ta bort en byggnad
+    /// </summary>
+    /// <param name="id">ID för byggnaden</param>
+    /// <returns>Inget innehåll</returns>
     [HttpDelete("{id}")]
     public ActionResult DeleteBuilding(Guid id)
     {

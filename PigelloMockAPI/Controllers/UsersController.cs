@@ -4,6 +4,9 @@ using PigelloMockAPI.Models;
 
 namespace PigelloMockAPI.Controllers;
 
+/// <summary>
+/// Endpoints för att hantera användare
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class UsersController : ControllerBase
@@ -15,6 +18,11 @@ public class UsersController : ControllerBase
         _dataStore = dataStore;
     }
 
+    /// <summary>
+    /// Hämta alla användare med valfri filtrering
+    /// </summary>
+    /// <param name="isActive">Filtrera på aktiva/inaktiva användare</param>
+    /// <returns>Lista med användare</returns>
     [HttpGet]
     public ActionResult<IEnumerable<User>> GetUsers([FromQuery] bool? isActive = null)
     {
@@ -36,6 +44,10 @@ public class UsersController : ControllerBase
         return Ok(user);
     }
 
+    /// <summary>
+    /// Hämta inloggad användare (mock - returnerar första aktiva användaren)
+    /// </summary>
+    /// <returns>Den inloggade användaren</returns>
     [HttpGet("me")]
     public ActionResult<User> GetCurrentUser()
     {

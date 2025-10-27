@@ -4,6 +4,9 @@ using PigelloMockAPI.Models;
 
 namespace PigelloMockAPI.Controllers;
 
+/// <summary>
+/// Endpoints för att hantera rum
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class RoomsController : ControllerBase
@@ -15,6 +18,11 @@ public class RoomsController : ControllerBase
         _dataStore = dataStore;
     }
 
+    /// <summary>
+    /// Hämta alla rum med valfri filtrering
+    /// </summary>
+    /// <param name="buildingId">Filtrera på byggnad</param>
+    /// <returns>Lista med rum</returns>
     [HttpGet]
     public ActionResult<IEnumerable<Room>> GetRooms([FromQuery] Guid? buildingId = null)
     {
