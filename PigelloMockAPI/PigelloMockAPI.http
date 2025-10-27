@@ -1,0 +1,6 @@
+@PigelloMockAPI_HostAddress = http://localhost:5058
+
+GET {{PigelloMockAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
