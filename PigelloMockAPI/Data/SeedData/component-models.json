@@ -1,0 +1,97 @@
+[
+  {
+    "id": "11111111-1111-1111-1111-111111111111",
+    "name": "Electrolux Kylskåp ERF3307AOX",
+    "category": "Vitvaror",
+    "manufacturer": "Electrolux",
+    "modelNumber": "ERF3307AOX",
+    "expectedLifespanMonths": 120,
+    "description": "Energieffektivt kylskåp för hushållsbruk",
+    "specifications": {
+      "EnergyClass": "A++",
+      "Capacity": "318L",
+      "Width": "595mm"
+    }
+  },
+  {
+    "id": "22222222-2222-2222-2222-222222222222",
+    "name": "FM Mattsson Nordic+ Blandare",
+    "category": "VVS",
+    "manufacturer": "FM Mattsson",
+    "modelNumber": "Nordic+ 9000",
+    "expectedLifespanMonths": 180,
+    "description": "Blandare med temperaturspärr",
+    "specifications": {
+      "Type": "Termostat",
+      "Finish": "Krom"
+    }
+  },
+  {
+    "id": "33333333-3333-3333-3333-333333333333",
+    "name": "Miele Professional WTH720WPM",
+    "category": "Vitvaror",
+    "manufacturer": "Miele",
+    "modelNumber": "WTH720WPM",
+    "expectedLifespanMonths": 180,
+    "description": "Professionell tvättmaskin för tvättstuga",
+    "specifications": {
+      "EnergyClass": "A+++",
+      "Capacity": "8kg",
+      "SpinSpeed": "1600rpm"
+    }
+  },
+  {
+    "id": "44444444-4444-4444-4444-444444444444",
+    "name": "Bosch Diskmaskin SMV46KX01E",
+    "category": "Vitvaror",
+    "manufacturer": "Bosch",
+    "modelNumber": "SMV46KX01E",
+    "expectedLifespanMonths": 144,
+    "description": "Integrerad diskmaskin",
+    "specifications": {
+      "EnergyClass": "A++",
+      "Capacity": "13 kuvert",
+      "NoiseLevel": "46 dB"
+    }
+  },
+  {
+    "id": "55555555-5555-5555-5555-555555555555",
+    "name": "Electrolux Spis EKC6461AOX",
+    "category": "Vitvaror",
+    "manufacturer": "Electrolux",
+    "modelNumber": "EKC6461AOX",
+    "expectedLifespanMonths": 180,
+    "description": "Keramikhäll med ugn",
+    "specifications": {
+      "Type": "Keramisk häll",
+      "OvenCapacity": "72L",
+      "Width": "600mm"
+    }
+  },
+  {
+    "id": "66666666-6666-6666-6666-666666666666",
+    "name": "Nibe F2120 Värmepump",
+    "category": "Ventilation",
+    "manufacturer": "Nibe",
+    "modelNumber": "F2120",
+    "expectedLifespanMonths": 240,
+    "description": "Bergvärmepump för uppvärmning",
+    "specifications": {
+      "Capacity": "12kW",
+      "EnergyClass": "A+++"
+    }
+  },
+  {
+    "id": "77777777-7777-7777-7777-777777777777",
+    "name": "Fläkt Woods VSR300",
+    "category": "Ventilation",
+    "manufacturer": "Fläkt Woods",
+    "modelNumber": "VSR300",
+    "expectedLifespanMonths": 200,
+    "description": "Frånluftsaggregat",
+    "specifications": {
+      "AirFlow": "300 m³/h",
+      "NoiseLevel": "38 dB"
+    }
+  }
+]

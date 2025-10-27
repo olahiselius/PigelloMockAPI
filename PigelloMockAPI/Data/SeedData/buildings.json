@@ -1,0 +1,62 @@
+[
+  {
+    "id": "11111111-1111-1111-1111-111111111111",
+    "name": "Rosenlund Hus A",
+    "address": "Rosenlundsvägen 1A",
+    "propertyId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "constructionYear": 1985,
+    "numberOfFloors": 5,
+    "buildingType": "Flerbostadshus",
+    "description": "Huvudbyggnad med 20 lägenheter"
+  },
+  {
+    "id": "12222222-2222-2222-2222-222222222222",
+    "name": "Rosenlund Hus B",
+    "address": "Rosenlundsvägen 1B",
+    "propertyId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "constructionYear": 1987,
+    "numberOfFloors": 4,
+    "buildingType": "Flerbostadshus",
+    "description": "Sidobyggnad med 16 lägenheter"
+  },
+  {
+    "id": "13333333-3333-3333-3333-333333333333",
+    "name": "Rosenlund Garage",
+    "address": "Rosenlundsvägen 1C",
+    "propertyId": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "constructionYear": 1985,
+    "numberOfFloors": 1,
+    "buildingType": "Garage",
+    "description": "Garage med 30 platser"
+  },
+  {
+    "id": "14444444-4444-4444-4444-444444444444",
+    "name": "Liljeholm Hus 1",
+    "address": "Liljeholmsvägen 5",
+    "propertyId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "constructionYear": 1995,
+    "numberOfFloors": 6,
+    "buildingType": "Flerbostadshus",
+    "description": "Modern byggnad med 30 lägenheter"
+  },
+  {
+    "id": "15555555-5555-5555-5555-555555555555",
+    "name": "Vasastan Centrum",
+    "address": "Vasagatan 10",
+    "propertyId": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "constructionYear": 1920,
+    "numberOfFloors": 4,
+    "buildingType": "Affärshus",
+    "description": "Kontorslokaler och butiker"
+  },
+  {
+    "id": "16666666-6666-6666-6666-666666666666",
+    "name": "Södermalm 45",
+    "address": "Götgatan 45",
+    "propertyId": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    "constructionYear": 1923,
+    "numberOfFloors": 5,
+    "buildingType": "Flerbostadshus",
+    "description": "Historisk byggnad med 25 lägenheter"
+  }
+]

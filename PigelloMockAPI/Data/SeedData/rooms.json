@@ -1,0 +1,92 @@
+[
+  {
+    "id": "11111111-1111-1111-1111-111111111111",
+    "name": "Kök",
+    "buildingId": "11111111-1111-1111-1111-111111111111",
+    "roomNumber": "1101",
+    "floor": 1,
+    "roomType": "Kök",
+    "area": 12.5,
+    "description": "Standardkök i lägenhet 1101"
+  },
+  {
+    "id": "12222222-2222-2222-2222-222222222222",
+    "name": "Badrum",
+    "buildingId": "11111111-1111-1111-1111-111111111111",
+    "roomNumber": "1101",
+    "floor": 1,
+    "roomType": "Badrum",
+    "area": 5.5,
+    "description": "Helkaklat badrum"
+  },
+  {
+    "id": "13333333-3333-3333-3333-333333333333",
+    "name": "Vardagsrum",
+    "buildingId": "11111111-1111-1111-1111-111111111111",
+    "roomNumber": "1101",
+    "floor": 1,
+    "roomType": "Vardagsrum",
+    "area": 22.0,
+    "description": "Rymligt vardagsrum med balkong"
+  },
+  {
+    "id": "14444444-4444-4444-4444-444444444444",
+    "name": "Sovrum",
+    "buildingId": "11111111-1111-1111-1111-111111111111",
+    "roomNumber": "1101",
+    "floor": 1,
+    "roomType": "Sovrum",
+    "area": 15.0,
+    "description": "Stort sovrum"
+  },
+  {
+    "id": "15555555-5555-5555-5555-555555555555",
+    "name": "Tvättstuga",
+    "buildingId": "11111111-1111-1111-1111-111111111111",
+    "roomNumber": "Källare",
+    "floor": 0,
+    "roomType": "Gemensamt utrymme",
+    "area": 25.0,
+    "description": "Gemensam tvättstuga"
+  },
+  {
+    "id": "16666666-6666-6666-6666-666666666666",
+    "name": "Kök",
+    "buildingId": "12222222-2222-2222-2222-222222222222",
+    "roomNumber": "1201",
+    "floor": 2,
+    "roomType": "Kök",
+    "area": 10.0,
+    "description": "Renoverat kök"
+  },
+  {
+    "id": "17777777-7777-7777-7777-777777777777",
+    "name": "Badrum",
+    "buildingId": "12222222-2222-2222-2222-222222222222",
+    "roomNumber": "1201",
+    "floor": 2,
+    "roomType": "Badrum",
+    "area": 4.5,
+    "description": "Litet badrum"
+  },
+  {
+    "id": "18888888-8888-8888-8888-888888888888",
+    "name": "Kontor",
+    "buildingId": "15555555-5555-5555-5555-555555555555",
+    "roomNumber": "101",
+    "floor": 1,
+    "roomType": "Kontorslokal",
+    "area": 45.0,
+    "description": "Kontorslokal med golvvärme"
+  },
+  {
+    "id": "19999999-9999-9999-9999-999999999999",
+    "name": "Reception",
+    "buildingId": "15555555-5555-5555-5555-555555555555",
+    "roomNumber": "100",
+    "floor": 1,
+    "roomType": "Reception",
+    "area": 20.0,
+    "description": "Reception och entré"
+  }
+]

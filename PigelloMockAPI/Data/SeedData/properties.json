@@ -1,0 +1,38 @@
+[
+  {
+    "id": "aaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "name": "Rosenlund",
+    "address": "Rosenlundsvägen 1",
+    "city": "Stockholm",
+    "postalCode": "11820",
+    "propertyDesignation": "Rosenlund 1:1",
+    "description": "Bostadsfastighet med 3 byggnader"
+  },
+  {
+    "id": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "name": "Liljeholm",
+    "address": "Liljeholmsvägen 5",
+    "city": "Stockholm",
+    "postalCode": "11761",
+    "propertyDesignation": "Liljeholm 2:3",
+    "description": "Bostadsfastighet med lokaler"
+  },
+  {
+    "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
+    "name": "Vasastan",
+    "address": "Vasagatan 10",
+    "city": "Stockholm",
+    "postalCode": "11120",
+    "propertyDesignation": "Vasastan 5:7",
+    "description": "Centralt belägen fastighet med affärslokaler"
+  },
+  {
+    "id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
+    "name": "Södermalm",
+    "address": "Götgatan 45",
+    "city": "Stockholm",
+    "postalCode": "11621",
+    "propertyDesignation": "Södermalm 8:2",
+    "description": "Bostadsfastighet från 1920-talet"
+  }
+]
