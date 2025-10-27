@@ -1,0 +1,6 @@
+@PigelloMCP_HostAddress = http://localhost:5063
+
+GET {{PigelloMCP_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
