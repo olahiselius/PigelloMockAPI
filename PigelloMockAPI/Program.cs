@@ -8,8 +8,30 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddSingleton<InMemoryDataStore>();
 
 builder.Services.AddControllers();
-// Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
-builder.Services.AddOpenApi();
+
+// Add Swagger/OpenAPI support
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(options =>
+{
+    options.SwaggerDoc("v1", new Microsoft.OpenApi.Models.OpenApiInfo
+    {
+        Title = "Pigello Mock API",
+        Version = "v1",
+        Description = "Ett mock API som simulerar Pigellos API för utveckling av klienter och MCP-servrar",
+        Contact = new Microsoft.OpenApi.Models.OpenApiContact
+        {
+            Name = "Pigello Mock API"
+        }
+    });
+
+    // Include XML comments for better documentation
+    var xmlFile = $"{System.Reflection.Assembly.GetExecutingAssembly().GetName().Name}.xml";
+    var xmlPath = System.IO.Path.Combine(AppContext.BaseDirectory, xmlFile);
+    if (System.IO.File.Exists(xmlPath))
+    {
+        options.IncludeXmlComments(xmlPath);
+    }
+});
 
 // Add CORS policy for development
 builder.Services.AddCors(options =>
@@ -27,7 +49,12 @@ var app = builder.Build();
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.MapOpenApi();
+    app.UseSwagger();
+    app.UseSwaggerUI(options =>
+    {
+        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Pigello Mock API v1");
+        options.RoutePrefix = string.Empty; // Swagger UI at root (http://localhost:5059/)
+    });
     app.UseCors("AllowAll");
 }
 

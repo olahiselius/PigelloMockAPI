@@ -4,6 +4,9 @@ using PigelloMockAPI.Models;
 
 namespace PigelloMockAPI.Controllers;
 
+/// <summary>
+/// Endpoints för att hantera ärenden i fastighetssystemet
+/// </summary>
 [ApiController]
 [Route("api/[controller]")]
 public class CasesController : ControllerBase
@@ -15,6 +18,14 @@ public class CasesController : ControllerBase
         _dataStore = dataStore;
     }
 
+    /// <summary>
+    /// Hämta alla ärenden med valfri filtrering
+    /// </summary>
+    /// <param name="assignedToUserId">Filtrera på användare som ärendet är tilldelat</param>
+    /// <param name="buildingId">Filtrera på byggnad</param>
+    /// <param name="propertyId">Filtrera på fastighet</param>
+    /// <param name="status">Filtrera på status</param>
+    /// <returns>Lista med ärenden</returns>
     [HttpGet]
     public ActionResult<IEnumerable<Case>> GetCases(
         [FromQuery] Guid? assignedToUserId = null,
@@ -82,6 +93,12 @@ public class CasesController : ControllerBase
         return Ok(existingCase);
     }
 
+    /// <summary>
+    /// Uppdatera status på ett ärende
+    /// </summary>
+    /// <param name="id">ID för ärendet</param>
+    /// <param name="status">Ny status (0=Open, 1=InProgress, 2=Pending, 3=Closed, 4=Cancelled)</param>
+    /// <returns>Uppdaterat ärende</returns>
     [HttpPatch("{id}/status")]
     public ActionResult<Case> UpdateCaseStatus(Guid id, [FromBody] CaseStatus status)
     {

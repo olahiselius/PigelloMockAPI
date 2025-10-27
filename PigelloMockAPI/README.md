@@ -13,14 +13,21 @@ cd PigelloMockAPI
 dotnet run
 ```
 
-API:et startar på `https://localhost:5001` (eller annan port som visas i konsolen).
+API:et startar på `http://localhost:5059` (eller annan port som visas i konsolen).
 
-## Swagger/OpenAPI
+## Swagger/OpenAPI UI
 
-Swagger UI är tillgängligt under utveckling på:
-```
-https://localhost:5001/openapi/v1.json
-```
+Swagger UI är tillgängligt på root-adressen när API:et körs i Development-läge:
+
+**Swagger UI:** `http://localhost:5059/`
+
+Här kan du:
+- 📖 Utforska alla tillgängliga endpoints
+- 🧪 Testa API:et direkt från webbläsaren
+- 📝 Se detaljerad dokumentation för varje endpoint
+- 🔍 Inspektera request/response-modeller
+
+**OpenAPI specification:** `http://localhost:5059/swagger/v1/swagger.json`
 
 ## Endpoints
 
