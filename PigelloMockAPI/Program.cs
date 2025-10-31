@@ -47,14 +47,16 @@ builder.Services.AddCors(options =>
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
+app.UseSwagger();
+app.UseSwaggerUI(options =>
+{
+    options.SwaggerEndpoint("/swagger/v1/swagger.json", "Pigello Mock API v1");
+    // Swagger UI at root in development, at /swagger in production
+    options.RoutePrefix = app.Environment.IsDevelopment() ? string.Empty : "swagger";
+});
+
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwagger();
-    app.UseSwaggerUI(options =>
-    {
-        options.SwaggerEndpoint("/swagger/v1/swagger.json", "Pigello Mock API v1");
-        options.RoutePrefix = string.Empty; // Swagger UI at root (http://localhost:5059/)
-    });
     app.UseCors("AllowAll");
 }
 

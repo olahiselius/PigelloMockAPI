@@ -16,6 +16,7 @@
   <ItemGroup>
     <None Update="Data\SeedData\*.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
     </None>
   </ItemGroup>
 

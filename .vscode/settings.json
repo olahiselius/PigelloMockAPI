@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/ce400ae1-e38f-4bc1-b96a-9df0d1fa8e05/resourceGroups/pigellomockapi/providers/Microsoft.Web/sites/PigelloMockAPI",
+    "appService.deploySubpath": "PigelloMockAPI/bin/Release/net9.0/publish"
+}

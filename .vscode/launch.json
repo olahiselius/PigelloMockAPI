@@ -2,7 +2,7 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "name": ".NET Core Launch (web)",
+            "name": "PigelloMockAPI",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -15,16 +15,39 @@
                 "pattern": "\\bNow listening on:\\s+(https?://\\S+)"
             },
             "env": {
-                "ASPNETCORE_ENVIRONMENT": "Development"
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "https://localhost:7293;http://localhost:5293"
             },
             "sourceFileMap": {
                 "/Views": "${workspaceFolder}/Views"
             }
         },
         {
+            "name": "PigelloMCP",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-mcp",
+            "program": "${workspaceFolder}/PigelloMCP/PigelloMCP/bin/Debug/net9.0/PigelloMCP.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/PigelloMCP/PigelloMCP",
+            "stopAtEntry": false,
+            "env": {
+                "ASPNETCORE_ENVIRONMENT": "Development",
+                "ASPNETCORE_URLS": "https://localhost:7063;http://localhost:5063"
+            }
+        },
+        {
             "name": ".NET Core Attach",
             "type": "coreclr",
             "request": "attach"
+        }
+    ],
+    "compounds": [
+        {
+            "name": "API + MCP Server",
+            "configurations": ["PigelloMockAPI", "PigelloMCP"],
+            "stopAll": true,
+            "preLaunchTask": "build-all"
         }
     ]
 }

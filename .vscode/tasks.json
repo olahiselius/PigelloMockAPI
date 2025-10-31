@@ -14,6 +14,23 @@
             "problemMatcher": "$msCompile"
         },
         {
+            "label": "build-mcp",
+            "command": "dotnet",
+            "type": "process",
+            "args": [
+                "build",
+                "${workspaceFolder}/PigelloMCP/PigelloMCP/PigelloMCP.csproj",
+                "/property:GenerateFullPaths=true",
+                "/consoleloggerparameters:NoSummary;ForceNoAlign"
+            ],
+            "problemMatcher": "$msCompile"
+        },
+        {
+            "label": "build-all",
+            "dependsOn": ["build", "build-mcp"],
+            "problemMatcher": []
+        },
+        {
             "label": "publish",
             "command": "dotnet",
             "type": "process",

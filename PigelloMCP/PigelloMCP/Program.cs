@@ -2,8 +2,8 @@ var builder = WebApplication.CreateBuilder(args);
 
 // Add MCP Server with HTTP transport
 builder.Services.AddMcpServer()
-    .WithHttpTransport() // Använd streamable HTTP för Azure App Service
-    .WithToolsFromAssembly(); // Ladda alla klasser markerade med [McpServerToolType]
+    .WithHttpTransport()
+    .WithToolsFromAssembly();
 
 // Konfigurera HttpClient för Pigello Mock API
 builder.Services.AddHttpClient("PigelloMockAPI", client =>
@@ -11,6 +11,19 @@ builder.Services.AddHttpClient("PigelloMockAPI", client =>
     var baseUrl = builder.Configuration["PigelloMockAPI:BaseUrl"] ?? "http://localhost:5059";
     client.BaseAddress = new Uri(baseUrl);
     client.Timeout = TimeSpan.FromSeconds(30);
+})
+.ConfigurePrimaryHttpMessageHandler(() =>
+{
+    var handler = new HttpClientHandler();
+    
+    // I development, acceptera självsignerade certifikat
+    if (builder.Environment.IsDevelopment())
+    {
+        handler.ServerCertificateCustomValidationCallback = 
+            HttpClientHandler.DangerousAcceptAnyServerCertificateValidator;
+    }
+    
+    return handler;
 });
 
 // Lägg till CORS för att tillåta åtkomst från GitHub Copilot och webbläsare
