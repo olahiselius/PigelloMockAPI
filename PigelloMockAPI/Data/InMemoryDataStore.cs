@@ -12,6 +12,7 @@ public class InMemoryDataStore
     public List<Case> Cases { get; set; } = new();
     public List<ComponentModel> ComponentModels { get; set; } = new();
     public List<Component> Components { get; set; } = new();
+    public List<Tenant> Tenants { get; set; } = new();
 
     private readonly string _seedDataPath;
 
@@ -92,6 +93,15 @@ public class InMemoryDataStore
                 Console.WriteLine($"✓ Loaded {Cases.Count} cases");
             }
             catch (Exception ex) { Console.WriteLine($"✗ Error loading cases: {ex.Message}"); }
+
+            // Load Tenants
+            try
+            {
+                var tenantsJson = File.ReadAllText(Path.Combine(_seedDataPath, "tenants.json"));
+                Tenants = JsonSerializer.Deserialize<List<Tenant>>(tenantsJson, options) ?? new();
+                Console.WriteLine($"✓ Loaded {Tenants.Count} tenants");
+            }
+            catch (Exception ex) { Console.WriteLine($"✗ Error loading tenants: {ex.Message}"); }
         }
         catch (Exception ex)
         {

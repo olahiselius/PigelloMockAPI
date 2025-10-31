@@ -232,4 +232,120 @@ public class PigelloMcpTools(IHttpClientFactory httpClientFactory, IConfiguratio
         response.EnsureSuccessStatusCode();
         return await response.Content.ReadAsStringAsync();
     }
+
+    [McpServerTool]
+    [Description("Hämta alla hyresgäster (tenants) eller filtrera på aktiva/inaktiva, företag/privatpersoner eller organisation")]
+    public async Task<string> GetTenants(
+        [Description("Filtrera på aktiva/inaktiva hyresgäster (optional)")] bool? isActive = null,
+        [Description("Filtrera på företag (true) eller privatpersoner (false) (optional)")] bool? isCompany = null,
+        [Description("GUID för organisation (optional)")] string? organizationId = null)
+    {
+        var queryParams = new List<string>();
+        if (isActive.HasValue)
+            queryParams.Add($"isActive={isActive.Value}");
+        if (isCompany.HasValue)
+            queryParams.Add($"isCompany={isCompany.Value}");
+        if (!string.IsNullOrEmpty(organizationId))
+            queryParams.Add($"organizationId={organizationId}");
+
+        var url = $"{_mockApiBaseUrl}/api/tenants";
+        if (queryParams.Any())
+            url += "?" + string.Join("&", queryParams);
+
+        var response = await _httpClient.GetAsync(url);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync();
+    }
+
+    [McpServerTool]
+    [Description("Hämta en specifik hyresgäst baserat på ID")]
+    public async Task<string> GetTenant(
+        [Description("GUID för hyresgästen")] string tenantId)
+    {
+        var response = await _httpClient.GetAsync($"{_mockApiBaseUrl}/api/tenants/{tenantId}");
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync();
+    }
+
+    [McpServerTool]
+    [Description("Skapa en ny hyresgäst (privatperson)")]
+    public async Task<string> CreateTenant(
+        [Description("Förnamn")] string firstName,
+        [Description("Efternamn")] string lastName,
+        [Description("Personnummer (format: YYYYMMDD-XXXX)")] string ssn,
+        [Description("E-postadress")] string email,
+        [Description("Telefonnummer")] string phoneNumber,
+        [Description("Födelsedatum (ISO format: yyyy-MM-dd)")] string birthDate,
+        [Description("Om hyresgästen är aktiv")] bool isActive = true,
+        [Description("Faktureringsadress (optional)")] string? invoiceAddress = null,
+        [Description("E-post för fakturor (optional)")] string? invoiceEmail = null,
+        [Description("Anteckningar (optional)")] string? notes = null)
+    {
+        var tenantData = new
+        {
+            firstName,
+            lastName,
+            ssn,
+            email,
+            phoneNumber,
+            birthDate,
+            isActive,
+            isCompany = false,
+            invoiceAddress,
+            invoiceEmail = invoiceEmail ?? email,
+            notes
+        };
+
+        var payload = JsonSerializer.Serialize(tenantData);
+        var content = new StringContent(payload, System.Text.Encoding.UTF8, "application/json");
+        var response = await _httpClient.PostAsync($"{_mockApiBaseUrl}/api/tenants", content);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync();
+    }
+
+    [McpServerTool]
+    [Description("Skapa en ny företagshyresgäst")]
+    public async Task<string> CreateCompanyTenant(
+        [Description("Företagsnamn")] string corporateName,
+        [Description("Organisationsnummer (format: XXXXXX-XXXX)")] string orgNo,
+        [Description("E-postadress")] string email,
+        [Description("Telefonnummer")] string phoneNumber,
+        [Description("Om hyresgästen är aktiv")] bool isActive = true,
+        [Description("Faktureringsadress (optional)")] string? invoiceAddress = null,
+        [Description("E-post för fakturor (optional)")] string? invoiceEmail = null,
+        [Description("Organisations-ID (optional)")] string? organizationId = null,
+        [Description("Anteckningar (optional)")] string? notes = null)
+    {
+        var tenantData = new
+        {
+            corporateName,
+            orgNo,
+            email,
+            phoneNumber,
+            isActive,
+            isCompany = true,
+            invoiceAddress,
+            invoiceEmail = invoiceEmail ?? email,
+            organizationId,
+            notes
+        };
+
+        var payload = JsonSerializer.Serialize(tenantData);
+        var content = new StringContent(payload, System.Text.Encoding.UTF8, "application/json");
+        var response = await _httpClient.PostAsync($"{_mockApiBaseUrl}/api/tenants", content);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync();
+    }
+
+    [McpServerTool]
+    [Description("Uppdatera en hyresgästs information")]
+    public async Task<string> UpdateTenant(
+        [Description("GUID för hyresgästen")] string tenantId,
+        [Description("JSON-data med uppdaterad information")] string tenantData)
+    {
+        var content = new StringContent(tenantData, System.Text.Encoding.UTF8, "application/json");
+        var response = await _httpClient.PutAsync($"{_mockApiBaseUrl}/api/tenants/{tenantId}", content);
+        response.EnsureSuccessStatusCode();
+        return await response.Content.ReadAsStringAsync();
+    }
 }
