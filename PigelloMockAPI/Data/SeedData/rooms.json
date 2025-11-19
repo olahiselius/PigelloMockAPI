@@ -100,7 +100,7 @@
     "description": "Renoverat kök med moderna vitvaror"
   },
   {
-    "id": "1bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "id": "1bbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "name": "Badrum",
     "buildingId": "14444444-4444-4444-4444-444444444444",
     "roomNumber": "301",
@@ -160,7 +160,7 @@
     "description": "Klassiskt kök med kakelugn"
   },
   {
-    "id": "2bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "id": "2bbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "name": "Badrum",
     "buildingId": "16666666-6666-6666-6666-666666666666",
     "roomNumber": "201",
@@ -220,7 +220,7 @@
     "description": "Förråd i källare"
   },
   {
-    "id": "3bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "id": "3bbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "name": "Cykelrum",
     "buildingId": "11111111-1111-1111-1111-111111111111",
     "roomNumber": "Källare",
@@ -280,7 +280,7 @@
     "description": "Öppen planlösning, studio med kök"
   },
   {
-    "id": "4bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "id": "4bbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "name": "Badrum",
     "buildingId": "18888888-8888-8888-8888-888888888888",
     "roomNumber": "501",

@@ -160,7 +160,7 @@
     "reportedBy": "Förvaltning"
   },
   {
-    "id": "cbbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "id": "cbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "title": "Dörrlås fungerar inte",
     "description": "Entrédörr till lägenhet 401 låser sig inte ordentligt",
     "status": 0,
@@ -176,7 +176,7 @@
     "reportedBy": "Hyresgäst Gustav"
   },
   {
-    "id": "ccccccccc-cccc-cccc-cccc-cccccccccccc",
+    "id": "cccccccc-cccc-cccc-cccc-cccccccccccc",
     "title": "Fukt i källare",
     "description": "Fuktstänk observerat på källarväggen",
     "status": 1,
@@ -192,7 +192,7 @@
     "reportedBy": "Fastighetsskötare"
   },
   {
-    "id": "cddddddddd-dddd-dddd-dddd-dddddddddddd",
+    "id": "cddddddd-dddd-dddd-dddd-dddddddddddd",
     "title": "Trasig spolknapp på toalett",
     "description": "Spolknappen fastnar och spolar kontinuerligt",
     "status": 0,
@@ -200,7 +200,7 @@
     "assignedToUserId": "33333333-3333-3333-3333-333333333333",
     "buildingId": "14444444-4444-4444-4444-444444444444",
     "propertyId": "bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
-    "roomId": "1bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "roomId": "1bbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "createdDate": "2025-10-29T08:15:00",
     "closedDate": null,
     "dueDate": "2025-11-01T17:00:00",
@@ -208,7 +208,7 @@
     "reportedBy": "Hyresgäst Julia"
   },
   {
-    "id": "ceeeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "id": "ceeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
     "title": "Diskmaskin läcker",
     "description": "Vatten läcker ut under diskmaskinen vid körning",
     "status": 1,
@@ -224,7 +224,7 @@
     "reportedBy": "Hyresgäst Helena"
   },
   {
-    "id": "cfffffffff-ffff-ffff-ffff-ffffffffffff",
+    "id": "cfffffff-ffff-ffff-ffff-ffffffffffff",
     "title": "Värmeelement fungerar inte",
     "description": "Elementet i sovrum blir inte varmt",
     "status": 0,
@@ -240,7 +240,7 @@
     "reportedBy": "Hyresgäst Isak"
   },
   {
-    "id": "daaaaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "id": "daaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
     "title": "Fönsterruta sprucken",
     "description": "Sprucken ruta i vardagsrumsfönster",
     "status": 0,
@@ -256,7 +256,7 @@
     "reportedBy": "Hyresgäst Anna"
   },
   {
-    "id": "dbbbbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "id": "dbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "title": "Eluttag fungerar inte",
     "description": "Uttaget i köket ger ingen ström",
     "status": 1,
@@ -272,7 +272,7 @@
     "reportedBy": "Hyresgäst Martin"
   },
   {
-    "id": "dcccccccccc-cccc-cccc-cccc-cccccccccccc",
+    "id": "dccccccc-cccc-cccc-cccc-cccccccccccc",
     "title": "Garageport öppnar inte",
     "description": "Motoriserad garageport svarar inte på fjärrkontrollen",
     "status": 2,
@@ -288,7 +288,7 @@
     "reportedBy": "Flera hyresgäster"
   },
   {
-    "id": "ddddddddddd-dddd-dddd-dddd-dddddddddddd",
+    "id": "dddddddd-dddd-dddd-dddd-dddddddddddd",
     "title": "Rengöring av ventilationskanaler",
     "description": "Planerad rengöring av ventilation enligt OVK",
     "status": 2,
@@ -304,7 +304,7 @@
     "reportedBy": "Förvaltning"
   },
   {
-    "id": "deeeeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "id": "deeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
     "title": "Målning av trapphus",
     "description": "Trapphus behöver målas om, flagnande färg",
     "status": 2,
@@ -320,7 +320,7 @@
     "reportedBy": "BRF styrelse"
   },
   {
-    "id": "dfffffffffff-ffff-ffff-ffff-ffffffffffff",
+    "id": "dfffffff-ffff-ffff-ffff-ffffffffffff",
     "title": "Byte av lampor i gemensamhetsutrymmen",
     "description": "Flera lampor i tvättstuga och källargång behöver bytas",
     "status": 3,
@@ -336,7 +336,7 @@
     "reportedBy": "Fastighetsskötare"
   },
   {
-    "id": "eaaaaaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "id": "eaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
     "title": "Installation av laddbox",
     "description": "Hyresgäst önskar installera elbilsladdare i garage",
     "status": 2,
@@ -352,7 +352,7 @@
     "reportedBy": "Hyresgäst Lars"
   },
   {
-    "id": "ebbbbbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "id": "ebbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "title": "Service av hiss",
     "description": "Årlig service och besiktning av hiss",
     "status": 2,
@@ -368,7 +368,7 @@
     "reportedBy": "Förvaltning"
   },
   {
-    "id": "eccccccccccc-cccc-cccc-cccc-cccccccccccc",
+    "id": "eccccccc-cccc-cccc-cccc-cccccccccccc",
     "title": "Reparation av balkong",
     "description": "Balkongräcket är löst och behöver åtgärdas",
     "status": 0,
@@ -384,7 +384,7 @@
     "reportedBy": "Hyresgäst Emma"
   },
   {
-    "id": "eddddddddddd-dddd-dddd-dddd-dddddddddddd",
+    "id": "eddddddd-dddd-dddd-dddd-dddddddddddd",
     "title": "Byte av termostat",
     "description": "Gammal termostat behöver bytas till smart modell",
     "status": 1,
@@ -400,7 +400,7 @@
     "reportedBy": "Hyresgäst Robert"
   },
   {
-    "id": "eeeeeeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "id": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
     "title": "Kontroll av vattenläcka",
     "description": "Misstänkt vattenläcka i badrum, behöver inspekteras",
     "status": 1,
@@ -408,7 +408,7 @@
     "assignedToUserId": "66666666-6666-6666-6666-666666666666",
     "buildingId": "18888888-8888-8888-8888-888888888888",
     "propertyId": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
-    "roomId": "4bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "roomId": "4bbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "createdDate": "2025-10-29T16:00:00",
     "closedDate": null,
     "dueDate": "2025-11-01T17:00:00",
@@ -416,7 +416,7 @@
     "reportedBy": "Hyresgäst Nina"
   },
   {
-    "id": "efffffffffff-ffff-ffff-ffff-ffffffffffff",
+    "id": "efffffff-ffff-ffff-ffff-ffffffffffff",
     "title": "Rensning av stuprör",
     "description": "Stuprör igensatta, vattnet rinner inte undan",
     "status": 0,
@@ -432,7 +432,7 @@
     "reportedBy": "Fastighetsskötare"
   },
   {
-    "id": "faaaaaaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "id": "faaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
     "title": "Installation av rökdetektor",
     "description": "Saknas rökdetektor i lägenhet enligt brandskyddsregler",
     "status": 2,
@@ -448,7 +448,7 @@
     "reportedBy": "Brandinspektion"
   },
   {
-    "id": "fbbbbbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "id": "fbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
     "title": "Byte av köksfläkt",
     "description": "Köksfläkt larmar konstant, behöver bytas",
     "status": 0,
