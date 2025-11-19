@@ -93,5 +93,201 @@
       "AirFlow": "300 m³/h",
       "NoiseLevel": "38 dB"
     }
+  },
+  {
+    "id": "88888888-8888-8888-8888-888888888888",
+    "name": "Whirlpool Frys WVE26622",
+    "category": "Vitvaror",
+    "manufacturer": "Whirlpool",
+    "modelNumber": "WVE26622",
+    "expectedLifespanMonths": 144,
+    "description": "Fristående frys med frostfri funktion",
+    "specifications": {
+      "EnergyClass": "A++",
+      "Capacity": "260L",
+      "NoFrost": "Yes"
+    }
+  },
+  {
+    "id": "99999999-9999-9999-9999-999999999999",
+    "name": "Siemens Mikrovågsugn BE634LGS1",
+    "category": "Vitvaror",
+    "manufacturer": "Siemens",
+    "modelNumber": "BE634LGS1",
+    "expectedLifespanMonths": 120,
+    "description": "Inbyggd mikrovågsugn med grill",
+    "specifications": {
+      "Power": "900W",
+      "Capacity": "21L",
+      "Type": "Built-in"
+    }
+  },
+  {
+    "id": "aaaaaaaa-1111-2222-3333-444444444444",
+    "name": "Grohe Eurodisc Blandare",
+    "category": "VVS",
+    "manufacturer": "Grohe",
+    "modelNumber": "Eurodisc 33191002",
+    "expectedLifespanMonths": 180,
+    "description": "Köksarmatur med utdragbar pip",
+    "specifications": {
+      "Type": "Enkelblandare",
+      "Finish": "Krom",
+      "SwivelnRange": "360°"
+    }
+  },
+  {
+    "id": "bbbbbbbb-2222-3333-4444-555555555555",
+    "name": "Systemair VX 400",
+    "category": "Ventilation",
+    "manufacturer": "Systemair",
+    "modelNumber": "VX 400",
+    "expectedLifespanMonths": 180,
+    "description": "Roterande värmeväxlare",
+    "specifications": {
+      "AirFlow": "400 m³/h",
+      "Efficiency": "88%",
+      "NoiseLevel": "42 dB"
+    }
+  },
+  {
+    "id": "cccccccc-3333-4444-5555-666666666666",
+    "name": "AEG Torktumlare T8DEC946R",
+    "category": "Vitvaror",
+    "manufacturer": "AEG",
+    "modelNumber": "T8DEC946R",
+    "expectedLifespanMonths": 144,
+    "description": "Värmepumpstorktumlare",
+    "specifications": {
+      "EnergyClass": "A+++",
+      "Capacity": "9kg",
+      "Type": "Värmepump"
+    }
+  },
+  {
+    "id": "dddddddd-4444-5555-6666-777777777777",
+    "name": "Samsung Kyl/Frys RB34T632ESA",
+    "category": "Vitvaror",
+    "manufacturer": "Samsung",
+    "modelNumber": "RB34T632ESA",
+    "expectedLifespanMonths": 120,
+    "description": "Kombinerat kyl/frys med No Frost",
+    "specifications": {
+      "EnergyClass": "A++",
+      "TotalCapacity": "344L",
+      "NoFrost": "Yes"
+    }
+  },
+  {
+    "id": "eeeeeeee-5555-6666-7777-888888888888",
+    "name": "Thermia Diplomat Optimum",
+    "category": "Ventilation",
+    "manufacturer": "Thermia",
+    "modelNumber": "Diplomat Optimum G3",
+    "expectedLifespanMonths": 240,
+    "description": "Bergvärmepump för villa",
+    "specifications": {
+      "HeatingCapacity": "15kW",
+      "SCOP": "4.5",
+      "EnergyClass": "A+++"
+    }
+  },
+  {
+    "id": "ffffffff-6666-7777-8888-999999999999",
+    "name": "Zanussi Diskmaskin ZDI26022XA",
+    "category": "Vitvaror",
+    "manufacturer": "Zanussi",
+    "modelNumber": "ZDI26022XA",
+    "expectedLifespanMonths": 120,
+    "description": "Integrerad diskmaskin",
+    "specifications": {
+      "EnergyClass": "A++",
+      "Capacity": "13 kuvert",
+      "NoiseLevel": "44 dB"
+    }
+  },
+  {
+    "id": "11112222-3333-4444-5555-666666666666",
+    "name": "Ikea Lagan Spis 502.371.82",
+    "category": "Vitvaror",
+    "manufacturer": "Ikea",
+    "modelNumber": "502.371.82",
+    "expectedLifespanMonths": 120,
+    "description": "Enkel spis för mindre kök",
+    "specifications": {
+      "Type": "Keramisk häll",
+      "Width": "500mm",
+      "OvenCapacity": "45L"
+    }
+  },
+  {
+    "id": "22223333-4444-5555-6666-777777777777",
+    "name": "Oras Vega Duschblandare",
+    "category": "VVS",
+    "manufacturer": "Oras",
+    "modelNumber": "Vega 1810",
+    "expectedLifespanMonths": 180,
+    "description": "Duschtermostat med EcoFlow",
+    "specifications": {
+      "Type": "Termostat",
+      "MaxFlow": "12 L/min",
+      "TempControl": "38°C spärr"
+    }
+  },
+  {
+    "id": "33334444-5555-6666-7777-888888888888",
+    "name": "Garo Laddbox GLB",
+    "category": "El",
+    "manufacturer": "Garo",
+    "modelNumber": "GLB+",
+    "expectedLifespanMonths": 180,
+    "description": "Laddbox för elbilar",
+    "specifications": {
+      "Power": "11kW",
+      "Type": "Type 2",
+      "SmartCharging": "Yes"
+    }
+  },
+  {
+    "id": "44445555-6666-7777-8888-999999999999",
+    "name": "Flexit S30 VG",
+    "category": "Ventilation",
+    "manufacturer": "Flexit",
+    "modelNumber": "S30 VG",
+    "expectedLifespanMonths": 200,
+    "description": "Ventilationsaggregat för villa",
+    "specifications": {
+      "AirFlow": "325 m³/h",
+      "HeatRecovery": "90%",
+      "NoiseLevel": "35 dB"
+    }
+  },
+  {
+    "id": "55556666-7777-8888-9999-000000000000",
+    "name": "Gorenje Induktionshäll IT635ASC",
+    "category": "Vitvaror",
+    "manufacturer": "Gorenje",
+    "modelNumber": "IT635ASC",
+    "expectedLifespanMonths": 144,
+    "description": "Induktionshäll med booster",
+    "specifications": {
+      "Type": "Induktion",
+      "Zones": "4",
+      "PowerBoost": "Yes"
+    }
+  },
+  {
+    "id": "66667777-8888-9999-0000-111111111111",
+    "name": "Danfoss Living Connect Z",
+    "category": "El",
+    "manufacturer": "Danfoss",
+    "modelNumber": "Living Connect Z",
+    "expectedLifespanMonths": 120,
+    "description": "Smart termostat för radiatorer",
+    "specifications": {
+      "Type": "Trådlös",
+      "Protocol": "Z-Wave",
+      "Battery": "2x AA"
+    }
   }
 ]

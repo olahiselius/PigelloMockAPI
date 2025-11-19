@@ -58,5 +58,155 @@
     "numberOfFloors": 5,
     "buildingType": "Flerbostadshus",
     "description": "Historisk byggnad med 25 lägenheter"
+  },
+  {
+    "id": "17777777-7777-7777-7777-777777777777",
+    "name": "Kungsholmen Hus A",
+    "address": "Hantverkargatan 25A",
+    "propertyId": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "constructionYear": 2005,
+    "numberOfFloors": 7,
+    "buildingType": "Flerbostadshus",
+    "description": "Modern byggnad med hiss och balkong"
+  },
+  {
+    "id": "18888888-8888-8888-8888-888888888888",
+    "name": "Kungsholmen Hus B",
+    "address": "Hantverkargatan 25B",
+    "propertyId": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "constructionYear": 2007,
+    "numberOfFloors": 6,
+    "buildingType": "Flerbostadshus",
+    "description": "Kompletterande byggnad med takterrass"
+  },
+  {
+    "id": "19999999-9999-9999-9999-999999999999",
+    "name": "Östermalm 100",
+    "address": "Karlavägen 100",
+    "propertyId": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "constructionYear": 1910,
+    "numberOfFloors": 6,
+    "buildingType": "Flerbostadshus",
+    "description": "Jugendstilsfastighet med ornament"
+  },
+  {
+    "id": "1aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "name": "Bromma Radhus 1",
+    "address": "Ulvsundavägen 50",
+    "propertyId": "aaaabbbb-cccc-dddd-eeee-111122223333",
+    "constructionYear": 1998,
+    "numberOfFloors": 2,
+    "buildingType": "Radhus",
+    "description": "Radhuslänga med 12 enheter"
+  },
+  {
+    "id": "1bbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "name": "Gamla Stan 15",
+    "address": "Stora Nygatan 15",
+    "propertyId": "bbbbcccc-dddd-eeee-ffff-222233334444",
+    "constructionYear": 1650,
+    "numberOfFloors": 4,
+    "buildingType": "Flerbostadshus",
+    "description": "K-märkt byggnad, medeltida grund"
+  },
+  {
+    "id": "1ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "name": "Hägersten Block A",
+    "address": "Västertorpsvägen 78A",
+    "propertyId": "ccccdddd-eeee-ffff-aaaa-333344445555",
+    "constructionYear": 1968,
+    "numberOfFloors": 8,
+    "buildingType": "Flerbostadshus",
+    "description": "Renoverad miljonprogramsbyggnad"
+  },
+  {
+    "id": "1ddddddd-dddd-dddd-dddd-dddddddddddd",
+    "name": "Hägersten Block B",
+    "address": "Västertorpsvägen 78B",
+    "propertyId": "ccccdddd-eeee-ffff-aaaa-333344445555",
+    "constructionYear": 1970,
+    "numberOfFloors": 8,
+    "buildingType": "Flerbostadshus",
+    "description": "Systerbyggnad med renoverad fasad"
+  },
+  {
+    "id": "1eeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "name": "Norrmalm Galleria",
+    "address": "Drottninggatan 88",
+    "propertyId": "ddddeeee-ffff-aaaa-bbbb-444455556666",
+    "constructionYear": 1980,
+    "numberOfFloors": 5,
+    "buildingType": "Affärshus",
+    "description": "Shopping center med restauranger"
+  },
+  {
+    "id": "1fffffff-ffff-ffff-ffff-ffffffffffff",
+    "name": "Farsta Centrum",
+    "address": "Farstaplan 12",
+    "propertyId": "eeeeffff-aaaa-bbbb-cccc-555566667777",
+    "constructionYear": 1975,
+    "numberOfFloors": 10,
+    "buildingType": "Flerbostadshus",
+    "description": "Höghus med utsikt över Farsta"
+  },
+  {
+    "id": "2aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "name": "Enskede Villa 45",
+    "address": "Sockenvägen 45",
+    "propertyId": "ffffaaaa-bbbb-cccc-dddd-666677778888",
+    "constructionYear": 1952,
+    "numberOfFloors": 2,
+    "buildingType": "Villa",
+    "description": "Klassisk villa med trädgård"
+  },
+  {
+    "id": "2bbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "name": "Hammarby Sjöstad 20",
+    "address": "Ljusslingan 20",
+    "propertyId": "aaaabbbb-cccc-dddd-eeee-777788889999",
+    "constructionYear": 2015,
+    "numberOfFloors": 9,
+    "buildingType": "Flerbostadshus",
+    "description": "Miljöcertifierad nybyggnation"
+  },
+  {
+    "id": "2ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "name": "Sundbyberg Centrum",
+    "address": "Sturegatan 33",
+    "propertyId": "bbbbcccc-dddd-eeee-ffff-888899990000",
+    "constructionYear": 2010,
+    "numberOfFloors": 8,
+    "buildingType": "Flerbostadshus",
+    "description": "Modern fastighet med parkeringsgarage"
+  },
+  {
+    "id": "2ddddddd-dddd-dddd-dddd-dddddddddddd",
+    "name": "Solna Business Park",
+    "address": "Frösundaleden 2",
+    "propertyId": "ccccdddd-eeee-ffff-aaaa-999900001111",
+    "constructionYear": 2003,
+    "numberOfFloors": 4,
+    "buildingType": "Kontorshus",
+    "description": "Kontorshotell med flexibla ytor"
+  },
+  {
+    "id": "2eeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "name": "Täby Villa 8",
+    "address": "Kemistvägen 8",
+    "propertyId": "ddddeeee-ffff-aaaa-bbbb-000011112222",
+    "constructionYear": 1992,
+    "numberOfFloors": 2,
+    "buildingType": "Villa",
+    "description": "Rymlig villa med pool"
+  },
+  {
+    "id": "2fffffff-ffff-ffff-ffff-ffffffffffff",
+    "name": "Nacka Forum",
+    "address": "Sickla Allé 7",
+    "propertyId": "eeeeffff-aaaa-bbbb-cccc-111122223333",
+    "constructionYear": 2018,
+    "numberOfFloors": 7,
+    "buildingType": "Kontorshus",
+    "description": "LEED-certifierad kontorsfastighet"
   }
 ]

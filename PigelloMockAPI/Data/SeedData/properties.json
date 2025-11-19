@@ -34,5 +34,122 @@
     "postalCode": "11621",
     "propertyDesignation": "Södermalm 8:2",
     "description": "Bostadsfastighet från 1920-talet"
+  },
+  {
+    "id": "eeeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "name": "Kungsholmen",
+    "address": "Hantverkargatan 25",
+    "city": "Stockholm",
+    "postalCode": "11221",
+    "propertyDesignation": "Kungsholmen 3:14",
+    "description": "Moderniserad fastighet med blandade lokaler"
+  },
+  {
+    "id": "ffffffff-ffff-ffff-ffff-ffffffffffff",
+    "name": "Östermalm",
+    "address": "Karlavägen 100",
+    "city": "Stockholm",
+    "postalCode": "11526",
+    "propertyDesignation": "Östermalm 12:5",
+    "description": "Exklusiv bostadsfastighet i centralt läge"
+  },
+  {
+    "id": "aaaabbbb-cccc-dddd-eeee-111122223333",
+    "name": "Bromma",
+    "address": "Ulvsundavägen 50",
+    "city": "Stockholm",
+    "postalCode": "16867",
+    "propertyDesignation": "Bromma 6:8",
+    "description": "Villaområde med redhus och kedjehus"
+  },
+  {
+    "id": "bbbbcccc-dddd-eeee-ffff-222233334444",
+    "name": "Gamla Stan",
+    "address": "Stora Nygatan 15",
+    "city": "Stockholm",
+    "postalCode": "11127",
+    "propertyDesignation": "Gamla Stan 1:2",
+    "description": "Kulturhistorisk fastighet från 1600-talet"
+  },
+  {
+    "id": "ccccdddd-eeee-ffff-aaaa-333344445555",
+    "name": "Hägersten",
+    "address": "Västertorpsvägen 78",
+    "city": "Stockholm",
+    "postalCode": "12641",
+    "propertyDesignation": "Hägersten 9:11",
+    "description": "Miljonprogramsområde, välskött fastighet"
+  },
+  {
+    "id": "ddddeeee-ffff-aaaa-bbbb-444455556666",
+    "name": "Norrmalm",
+    "address": "Drottninggatan 88",
+    "city": "Stockholm",
+    "postalCode": "11136",
+    "propertyDesignation": "Norrmalm 15:7",
+    "description": "Kommersiell fastighet med butiker och kontor"
+  },
+  {
+    "id": "eeeeffff-aaaa-bbbb-cccc-555566667777",
+    "name": "Farsta",
+    "address": "Farstaplan 12",
+    "city": "Stockholm",
+    "postalCode": "12365",
+    "propertyDesignation": "Farsta 4:20",
+    "description": "Blandad fastighet nära tunnelbana"
+  },
+  {
+    "id": "ffffaaaa-bbbb-cccc-dddd-666677778888",
+    "name": "Enskede",
+    "address": "Sockenvägen 45",
+    "city": "Stockholm",
+    "postalCode": "12242",
+    "propertyDesignation": "Enskede 7:3",
+    "description": "Lugnt bostadsområde med villor"
+  },
+  {
+    "id": "aaaabbbb-cccc-dddd-eeee-777788889999",
+    "name": "Hammarby Sjöstad",
+    "address": "Ljusslingan 20",
+    "city": "Stockholm",
+    "postalCode": "12030",
+    "propertyDesignation": "Hammarby 2:6",
+    "description": "Nybyggd miljövänlig fastighet vid vatten"
+  },
+  {
+    "id": "bbbbcccc-dddd-eeee-ffff-888899990000",
+    "name": "Sundbyberg",
+    "address": "Sturegatan 33",
+    "city": "Sundbyberg",
+    "postalCode": "17242",
+    "propertyDesignation": "Sundbyberg 5:9",
+    "description": "Centralt läge med goda kommunikationer"
+  },
+  {
+    "id": "ccccdddd-eeee-ffff-aaaa-999900001111",
+    "name": "Solna",
+    "address": "Frösundaleden 2",
+    "city": "Solna",
+    "postalCode": "16970",
+    "propertyDesignation": "Solna 18:4",
+    "description": "Kontor och lagerlokal nära E4"
+  },
+  {
+    "id": "ddddeeee-ffff-aaaa-bbbb-000011112222",
+    "name": "Täby",
+    "address": "Kemistvägen 8",
+    "city": "Täby",
+    "postalCode": "18730",
+    "propertyDesignation": "Täby 10:15",
+    "description": "Villa i attraktivt område"
+  },
+  {
+    "id": "eeeeffff-aaaa-bbbb-cccc-111122223333",
+    "name": "Nacka",
+    "address": "Sickla Allé 7",
+    "city": "Nacka",
+    "postalCode": "13141",
+    "propertyDesignation": "Nacka 11:8",
+    "description": "Modern kontorsfastighet i Sickla"
   }
 ]

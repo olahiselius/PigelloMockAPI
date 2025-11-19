@@ -88,5 +88,205 @@
     "status": 4,
     "warrantyExpirationDate": "2024-08-10T00:00:00",
     "notes": "Utbytt 2024-09-15 mot ny modell"
+  },
+  {
+    "id": "1aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "roomId": "1aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "componentModelId": "11111111-1111-1111-1111-111111111111",
+    "installationDate": "2023-08-10T00:00:00",
+    "serialNumber": "ELX-2023-334455",
+    "status": 0,
+    "warrantyExpirationDate": "2025-08-10T00:00:00",
+    "notes": "Nyinstallation vid inflyttning"
+  },
+  {
+    "id": "1bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "roomId": "1aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "componentModelId": "44444444-4444-4444-4444-444444444444",
+    "installationDate": "2023-08-10T00:00:00",
+    "serialNumber": "BOSCH-2023-667788",
+    "status": 0,
+    "warrantyExpirationDate": "2025-08-10T00:00:00",
+    "notes": null
+  },
+  {
+    "id": "1ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "roomId": "1aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "componentModelId": "15555555-5555-5555-5555-555555555555",
+    "installationDate": "2023-08-10T00:00:00",
+    "serialNumber": "ELX-2023-990011",
+    "status": 0,
+    "warrantyExpirationDate": "2025-08-10T00:00:00",
+    "notes": null
+  },
+  {
+    "id": "1ddddddd-dddd-dddd-dddd-dddddddddddd",
+    "roomId": "1bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "componentModelId": "12222222-2222-2222-2222-222222222222",
+    "installationDate": "2023-08-10T00:00:00",
+    "serialNumber": "FMM-2023-223344",
+    "status": 0,
+    "warrantyExpirationDate": "2028-08-10T00:00:00",
+    "notes": "FM Mattsson kvalitetsarmatur"
+  },
+  {
+    "id": "1eeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "roomId": "2aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "componentModelId": "11111111-1111-1111-1111-111111111111",
+    "installationDate": "2020-05-15T00:00:00",
+    "serialNumber": "ELX-2020-556677",
+    "status": 1,
+    "warrantyExpirationDate": "2022-05-15T00:00:00",
+    "notes": "Garanti utgången, fungerar fortfarande bra"
+  },
+  {
+    "id": "1fffffff-ffff-ffff-ffff-ffffffffffff",
+    "roomId": "2bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "componentModelId": "12222222-2222-2222-2222-222222222222",
+    "installationDate": "2020-05-15T00:00:00",
+    "serialNumber": "FMM-2020-889900",
+    "status": 0,
+    "warrantyExpirationDate": "2025-05-15T00:00:00",
+    "notes": null
+  },
+  {
+    "id": "2aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "roomId": "3ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "componentModelId": "88888888-8888-8888-8888-888888888888",
+    "installationDate": "2020-11-20T00:00:00",
+    "serialNumber": "WHIRL-2020-112233",
+    "status": 0,
+    "warrantyExpirationDate": "2022-11-20T00:00:00",
+    "notes": "Placerad i separat förråd"
+  },
+  {
+    "id": "2bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "roomId": "3ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "componentModelId": "dddddddd-4444-5555-6666-777777777777",
+    "installationDate": "2020-11-20T00:00:00",
+    "serialNumber": "SAMS-2020-445566",
+    "status": 0,
+    "warrantyExpirationDate": "2022-11-20T00:00:00",
+    "notes": null
+  },
+  {
+    "id": "2ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "roomId": "3ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "componentModelId": "ffffffff-6666-7777-8888-999999999999",
+    "installationDate": "2020-11-20T00:00:00",
+    "serialNumber": "ZANUS-2020-778899",
+    "status": 0,
+    "warrantyExpirationDate": "2022-11-20T00:00:00",
+    "notes": null
+  },
+  {
+    "id": "2ddddddd-dddd-dddd-dddd-dddddddddddd",
+    "roomId": "3fffffff-ffff-ffff-ffff-ffffffffffff",
+    "componentModelId": "22223333-4444-5555-6666-777777777777",
+    "installationDate": "2020-11-20T00:00:00",
+    "serialNumber": "ORAS-2020-001122",
+    "status": 0,
+    "warrantyExpirationDate": "2025-11-20T00:00:00",
+    "notes": "EcoFlow sparar vatten"
+  },
+  {
+    "id": "2eeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "roomId": "4aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "componentModelId": "55556666-7777-8888-9999-000000000000",
+    "installationDate": "2021-03-05T00:00:00",
+    "serialNumber": "GOREN-2021-334455",
+    "status": 0,
+    "warrantyExpirationDate": "2023-03-05T00:00:00",
+    "notes": "Induktion, energieffektivt"
+  },
+  {
+    "id": "2fffffff-ffff-ffff-ffff-ffffffffffff",
+    "roomId": "4bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "componentModelId": "12222222-2222-2222-2222-222222222222",
+    "installationDate": "2021-03-05T00:00:00",
+    "serialNumber": "FMM-2021-667788",
+    "status": 0,
+    "warrantyExpirationDate": "2026-03-05T00:00:00",
+    "notes": null
+  },
+  {
+    "id": "3aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "roomId": "2fffffff-ffff-ffff-ffff-ffffffffffff",
+    "componentModelId": "cccccccc-3333-4444-5555-666666666666",
+    "installationDate": "2020-01-20T00:00:00",
+    "serialNumber": "AEG-2020-990011",
+    "status": 0,
+    "warrantyExpirationDate": "2022-01-20T00:00:00",
+    "notes": "För gemensam tvättstuga"
+  },
+  {
+    "id": "3bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "roomId": "2ddddddd-dddd-dddd-dddd-dddddddddddd",
+    "componentModelId": "bbbbbbbb-2222-3333-4444-555555555555",
+    "installationDate": "2019-06-15T00:00:00",
+    "serialNumber": "SYSAIR-2019-223344",
+    "status": 0,
+    "warrantyExpirationDate": "2024-06-15T00:00:00",
+    "notes": "Central ventilation för kontorsvåning"
+  },
+  {
+    "id": "3ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "roomId": "18888888-8888-8888-8888-888888888888",
+    "componentModelId": "77777777-7777-7777-7777-777777777777",
+    "installationDate": "2018-09-10T00:00:00",
+    "serialNumber": "FLAKT-2018-556677",
+    "status": 1,
+    "warrantyExpirationDate": "2023-09-10T00:00:00",
+    "notes": "Årlig service genomförd"
+  },
+  {
+    "id": "3ddddddd-dddd-dddd-dddd-dddddddddddd",
+    "roomId": "1ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "componentModelId": "11111111-1111-1111-1111-111111111111",
+    "installationDate": "2024-02-10T00:00:00",
+    "serialNumber": "ELX-2024-112233",
+    "status": 0,
+    "warrantyExpirationDate": "2026-02-10T00:00:00",
+    "notes": "Senaste modellen"
+  },
+  {
+    "id": "3eeeeeee-eeee-eeee-eeee-eeeeeeeeeeee",
+    "roomId": "1ddddddd-dddd-dddd-dddd-dddddddddddd",
+    "componentModelId": "66667777-8888-9999-0000-111111111111",
+    "installationDate": "2024-02-10T00:00:00",
+    "serialNumber": "DANF-2024-445566",
+    "status": 0,
+    "warrantyExpirationDate": "2026-02-10T00:00:00",
+    "notes": "Smart termostat, kopplad till app"
+  },
+  {
+    "id": "3fffffff-ffff-ffff-ffff-ffffffffffff",
+    "roomId": "13333333-3333-3333-3333-333333333333",
+    "componentModelId": "13333333-3333-3333-3333-333333333333",
+    "installationDate": "2020-01-20T00:00:00",
+    "serialNumber": "MIELE-2020-789014",
+    "status": 0,
+    "warrantyExpirationDate": "2025-01-20T00:00:00",
+    "notes": "Backup-maskin i tvättstugan"
+  },
+  {
+    "id": "4aaaaaaa-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "roomId": "3bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "componentModelId": "33334444-5555-6666-7777-888888888888",
+    "installationDate": "2023-05-01T00:00:00",
+    "serialNumber": "GARO-2023-778899",
+    "status": 0,
+    "warrantyExpirationDate": "2026-05-01T00:00:00",
+    "notes": "Laddbox i garage"
+  },
+  {
+    "id": "4bbbbbbbb-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "roomId": "2ccccccc-cccc-cccc-cccc-cccccccccccc",
+    "componentModelId": "aaaaaaaa-1111-2222-3333-444444444444",
+    "installationDate": "2020-05-15T00:00:00",
+    "serialNumber": "GROHE-2020-334455",
+    "status": 0,
+    "warrantyExpirationDate": "2025-05-15T00:00:00",
+    "notes": "Köksarmatur med utdrag"
   }
 ]

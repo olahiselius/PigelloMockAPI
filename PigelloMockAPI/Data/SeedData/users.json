@@ -43,5 +43,140 @@
     "phoneNumber": "070-1112233",
     "role": "Fastighetsförvaltare",
     "isActive": false
+  },
+  {
+    "id": "66666666-6666-6666-6666-666666666666",
+    "firstName": "Lars",
+    "lastName": "Lundgren",
+    "email": "lars.lundgren@example.com",
+    "phoneNumber": "070-2223344",
+    "role": "VVS-tekniker",
+    "isActive": true
+  },
+  {
+    "id": "77777777-7777-7777-7777-777777777777",
+    "firstName": "Mona",
+    "lastName": "Magnusson",
+    "email": "mona.magnusson@example.com",
+    "phoneNumber": "070-3334455",
+    "role": "Fastighetsskötare",
+    "isActive": true
+  },
+  {
+    "id": "88888888-8888-8888-8888-888888888888",
+    "firstName": "Niklas",
+    "lastName": "Nyström",
+    "email": "niklas.nystrom@example.com",
+    "phoneNumber": "070-4445566",
+    "role": "Elektriker",
+    "isActive": true
+  },
+  {
+    "id": "99999999-9999-9999-9999-999999999999",
+    "firstName": "Olivia",
+    "lastName": "Olofsson",
+    "email": "olivia.olofsson@example.com",
+    "phoneNumber": "070-5556677",
+    "role": "Ekonomiassistent",
+    "isActive": true
+  },
+  {
+    "id": "aaaaaaaa-1111-1111-1111-111111111111",
+    "firstName": "Per",
+    "lastName": "Persson",
+    "email": "per.persson@example.com",
+    "phoneNumber": "070-6667788",
+    "role": "Tekniker",
+    "isActive": true
+  },
+  {
+    "id": "bbbbbbbb-2222-2222-2222-222222222222",
+    "firstName": "Qiara",
+    "lastName": "Qvist",
+    "email": "qiara.qvist@example.com",
+    "phoneNumber": "070-7778899",
+    "role": "Kundtjänst",
+    "isActive": true
+  },
+  {
+    "id": "cccccccc-3333-3333-3333-333333333333",
+    "firstName": "Rickard",
+    "lastName": "Rikardsson",
+    "email": "rickard.rikardsson@example.com",
+    "phoneNumber": "070-8889900",
+    "role": "Fastighetschef",
+    "isActive": true
+  },
+  {
+    "id": "dddddddd-4444-4444-4444-444444444444",
+    "firstName": "Stina",
+    "lastName": "Strand",
+    "email": "stina.strand@example.com",
+    "phoneNumber": "070-9990011",
+    "role": "Tekniker",
+    "isActive": true
+  },
+  {
+    "id": "eeeeeeee-5555-5555-5555-555555555555",
+    "firstName": "Thomas",
+    "lastName": "Thunberg",
+    "email": "thomas.thunberg@example.com",
+    "phoneNumber": "070-0011223",
+    "role": "VVS-tekniker",
+    "isActive": true
+  },
+  {
+    "id": "ffffffff-6666-6666-6666-666666666666",
+    "firstName": "Ulla",
+    "lastName": "Ulvsson",
+    "email": "ulla.ulvsson@example.com",
+    "phoneNumber": "070-1122334",
+    "role": "Fastighetsskötare",
+    "isActive": true
+  },
+  {
+    "id": "11111111-7777-7777-7777-777777777777",
+    "firstName": "Viktor",
+    "lastName": "Vallin",
+    "email": "viktor.vallin@example.com",
+    "phoneNumber": "070-2233445",
+    "role": "Elektriker",
+    "isActive": true
+  },
+  {
+    "id": "22222222-8888-8888-8888-888888888888",
+    "firstName": "Wilma",
+    "lastName": "Westerberg",
+    "email": "wilma.westerberg@example.com",
+    "phoneNumber": "070-3344556",
+    "role": "Projektledare",
+    "isActive": true
+  },
+  {
+    "id": "33333333-9999-9999-9999-999999999999",
+    "firstName": "Xander",
+    "lastName": "Axelsson",
+    "email": "xander.axelsson@example.com",
+    "phoneNumber": "070-4455667",
+    "role": "Tekniker",
+    "isActive": false
+  },
+  {
+    "id": "44444444-aaaa-aaaa-aaaa-aaaaaaaaaaaa",
+    "firstName": "Yvonne",
+    "lastName": "Yngström",
+    "email": "yvonne.yngstrom@example.com",
+    "phoneNumber": "070-5566778",
+    "role": "Fastighetsförvaltare",
+    "isActive": true
+  },
+  {
+    "id": "55555555-bbbb-bbbb-bbbb-bbbbbbbbbbbb",
+    "firstName": "Zakarias",
+    "lastName": "Zetterlund",
+    "email": "zakarias.zetterlund@example.com",
+    "phoneNumber": "070-6677889",
+    "role": "Hissmekaniker",
+    "isActive": true
   }
 ]
