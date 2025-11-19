@@ -14,6 +14,9 @@ public class Room
     /// <summary>ID för byggnad som rummet tillhör</summary>
     public Guid BuildingId { get; set; }
     
+    /// <summary>ID för apartment/lägenhet som rummet tillhör</summary>
+    public Guid? ApartmentId { get; set; }
+    
     /// <summary>Lägenhetsnummer eller lokalnummer</summary>
     public string RoomNumber { get; set; } = string.Empty;
     
